@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- link del css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- nombre del html -->
+    <title>Contacto - Flowerpots Deco </title>
+</head>
+<body>
+    <header>
+        <h1> Contactanos </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a class="recuadro" href="../index.html"> Inicio </a> 
+                </li>
+                <li>
+                    <a class="recuadro" href="nosotros.html"> Nosotros </a>
+                </li>
+                <li>
+                    <a class="recuadro" href="tienda.html"> Tienda </a>
+                </li>
+                <li>
+                    <a class="recuadro" href="productos.html"> Productos </a>
+                </li>
+                <li>
+                    <a class="recuadro" href="contacto.html"> Contacto </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="contact">
+            <div class="parrafo">
+                <p> <span> Contactate con nosotros. </span>
+                <br>
+                Escribenos para dejarnos tu mensaje y/o sugerencia.</p>
+            </div>
+        
+        <!-- formulario -->
+            <form>
+                <fieldset>
+                    <legend> Formulario </legend>
+                        <div>
+                            <label for="nombre"> Ingresa con tu nombre y apellido </label>
+                            <input type="text" name="nombre" placeholder="Completa tu nombre y apellido">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email"> Ingresa tu email </label>
+                            <input type="email" required placeholder="Completa tu correo electronico">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="zona"> Selecciona tu zona</label>
+                            <select name="localidad">
+                                <option value=""> elegi tu zona</option>
+                                <option value="ciudad de buenos aires"> Ciudad de Buenos Aires</option>
+                                <option value="GBA Norte"> GBA Norte</option>
+                                <option value="GBA oeste"> GBA Oeste </option>
+                                <option value="GBA sur"> GBA Sur</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="envio"> Forma de envio  </label>
+                            <br>
+                            <input type="radio" name="envio" value="por correo"> Por correo
+                            <input type="radio" name="envio" value="a domicilio"> A domicilio
+                            <input type="radio" name="envio" value="retiro por lugar"> Retiro por lugar
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="password"> Contraseña</label>
+                            <input type="password"> 
+                        </div>
+                
+                        <div>
+                            <input type="submit" value="enviar datos">
+                            <input type="reset" value="borrar todo">
+                        </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- fixed -->
+        <section class="chat">
+            <img src="../img/chat.png" alt="imagen de chat">
+        </section>
+    </main>
+    
+    <footer>
+        <h5> All rights reserved </h5>
+    </footer>
+</body>
+</html>

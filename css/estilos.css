@@ -1,0 +1,79 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos generales */
+body{
+    background-image: url(https://maquinariadejardineria.net/blog/wp-content/uploads/2017/05/Plantas-en-maceta.jpg);
+    background-repeat: space;
+}
+
+/* estilos generales header */
+h1{
+    color: red;
+    text-align: center; text-transform: uppercase;
+    padding: 15px 20px 40px 30px;
+    margin: 35px;
+}
+ul li {
+    list-style-type: none;
+    margin: 5px;
+    display: inline-block;
+}
+.recuadro{
+    text-decoration: none;
+    color: pink;
+    background-color: brown;
+}
+
+/* estilos generales main */
+h2{
+    color: blueviolet;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+p{
+    color: blueviolet;
+    font-style: oblique;
+    text-align: center;
+}
+
+/* estilos footer */
+h5{
+    height: 100vh;
+    padding-left: 0px;
+    padding-top: 450px;
+    margin: 5px;
+}
+
+/* estilos main de tienda */
+.imagenes {
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+/* estilos main de contacto */
+.parrafo{
+    display: grid;
+    grid-template-columns: 30%;
+    justify-self: center;
+}
+span{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.chat{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+/* propiedades padre contacto */
+.contact{
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto 60px;
+    justify-content: center;
+}
